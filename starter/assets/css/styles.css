@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 150px;
+  font-weight: bold;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+p {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#button {
+  text-align: center;
+ }   
+
+button {
+  text-align: center !important;
+  background-color: purple !important;
+  color: white !important;
+  font-size: 22px !important;
+  padding: 0px 12px 0px 12px !important;
+}
+
+.btn:hover {
+  text-align: center !important;
+  background-color: violet  !important;
+  color: white !important;
+  font-size: 22px !important;
+  padding: 0px 12px 0px 12px !important;
+}
+
+/* nav bar */
+
+#viewHighScores {
+  color:purple; 
+  padding-left: 20px;
+}
+
+#timer {
+  float: right;
+  padding-right: 30px; 
+}
+
+/* quiz question page */
+
+#quizQuestionsPage, #finalScorePage, #highScorePage {
+  margin: auto;
+  padding-left: 15%;
+}
+
+.quizChallengePage {
+  align-items: center !important;
+  text-align: center !important; 
+}
+
+#quizQuestionHeader, #allDone, #highScores {
+  font-size: 25px;
+  font-weight: bolder; 
+  padding-top: 100px;
+  padding-bottom: 15px; 
+}
+
+li {
+  list-style-type: none;
+}
+
+.questionButton {
+  text-align: center !important;
+  background-color: purple !important;
+  color: white !important;
+  font-size: 22px !important;
+  padding: 0px 12px 0px 12px !important;
+  margin: 5px; 
+}
+
+#answerResponse {
+  font-style: italic;
+  color: grey;
+  font-size: 30px;
+  border-top: grey solid;
+}
+
+/*final score page*/
+#finalScoreIs {
+  font-size: 20px;
+}
+
+#enterInitials {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#initialInput {
+  margin-right: 10px;
+}
+
+/* high score page*/
+#listItemEl {
+  text-align: left;
+  background-color:violet;
+  margin: 10px 0px;
+  padding: 10px; 
+}
+
+#highScoreList {
+  padding: 0px;
+}
+
+#endButtonsEl{
+  padding: 0px;
+}
+
+#endButtons {
+  text-align: left;
+}
